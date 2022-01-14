@@ -1,0 +1,281 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+header{
+    display: flex;
+}
+
+p{
+    color: #FFFDDE;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/********* BACKGROUND IMAGE DO BODY **********/
+.container{
+    position: relative;
+    background-image: url(./assets/espaço.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    margin: 0;
+}
+
+
+ul{
+    list-style: none;
+    position: relative;
+    display: flex;
+    padding-inline-start: 400px;
+    margin-inline-start: 30px;
+    padding-top: 30px;
+    
+}
+
+
+li{
+    color: #fff;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400px;
+    font-size: 22px;
+    margin: 15px;
+    position: relative;
+    font-size: 20px;
+    margin-top: 50px;   
+    
+}
+ /******** FORMATAÇÃO DAS CLASS LI ***********/
+.nav{
+    top: 5px;
+
+}
+
+.logo {
+    right: 140px;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+
+
+
+/********* ICONE DE LUPA DO NAV *****/
+.lupa{
+    position: relative;
+    top: 60px;
+    left: 140px;
+    height:25px;
+    width:25px;
+}
+
+
+
+
+/*******  BOTOES DO BODY   *******
+**********----------------*******/
+
+.btn{
+    background-image: linear-gradient(to left, #f1050f,#A50BA5, #3E17E2 );
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-shadow: none;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-width: 2px;
+    border-style: none;
+    width: 153px;
+    height: 45px;
+    border-radius: 8px;
+    margin-left: 150px;
+   
+}
+
+/****** BOTOES ABAIXO DO SUBTITULO *****/
+
+
+/*BOTAO COLORIDO*/
+.btn2{
+    background-image: linear-gradient(to left, #f1050f,#A50BA5, #3E17E2 );
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-shadow: none;
+    display:flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 1px 25px;
+    border-style: none;
+    width: 153px;
+    height: 43px;
+    border-radius: 8px;
+    top: 190px;
+    left: 570px;
+
+}
+/*BOTAO BRANCO*/
+.btn3{
+    background-image: #fff;
+    color: #00000;
+    text-transform: uppercase;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-shadow: none;
+    border-style: none;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding:10px;
+    padding-right:12px;
+    margin:20px;
+    border-style: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    top:130px;
+    left:740px;
+
+}
+
+
+
+
+
+/****** TITULO *****
+********-----******/
+h1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 140px;
+    font-size: 77px;   
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/**** BACKGROUND GRADIENT H1*******
+*******--------------------*******/
+
+
+
+
+.tittle{
+    background: -webkit-linear-gradient(blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white; /* largura da borda e cor da borda*/
+   text-shadow:  0 0 6vh #FFFDDE;
+}
+
+
+
+
+
+
+
+
+
+
+ /******** SUBTITULO H1 ******/
+#subtitle {
+color: #C7BEA2;
+font-weight: 600;
+max-width: 580px;
+position: relative;
+margin: 35px auto;
+text-align:center;
+top: 110px;
+}
+ /***************************************2 CONTEUDO DA PAGINA*******************************************************************************/
+
+
+ /*BACKGROUND IMAGE*/
+.container_about{
+    position: relative;
+    background-image: url(./assets/onda_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    margin: 0;
+}
+
+#subtitle2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    color: #FFFDDE;
+}
+
+.subtext{
+    color: #FFFDDE;
+max-width: 580px;
+position:relative;
+text-align: center;
+line-height: 20px;
+top: 30px;
+left: 450px;
+
+}
+
+.avatar{
+ /*width: 80%;
+   margin: 100px auto 50px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-gap:30px*/
+
+  /* position: absolute;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   width: 100vw;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+   column-gap: 10px;*/
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 480px;
+position: relative;
+top: 100px;
+left: 480px;
+padding: 10px;
+
+
+}
+
+
+   /* width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin: 5px;
+    position: relative;
+    left: 50px;*/
+    
+}
