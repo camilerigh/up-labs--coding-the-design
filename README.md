@@ -28,5 +28,4 @@ HTML, CSS...
 
 In this project i could learn more about position and how css process my comands. I face some challenges about positions and i watched many videos to make it work. Next step is grid layout!
 
-#click here to check on my Linkedin the final result 
-<a href="www.linkedin.com/in/camile-righetti-8a88281ab/"></a>
+#click here to check on my Linkedin the final result (www.linkedin.com/in/camile-righetti-8a88281ab/")
