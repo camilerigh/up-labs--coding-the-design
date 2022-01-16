@@ -17,13 +17,15 @@ p{
 .container{
     position: relative;
     background-image: url(./assets/espaço.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 85vh;
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
 
 ul{
     list-style: none;
@@ -56,7 +58,7 @@ li{
 .logo {
     right: 140px;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 35px;
 
 }
 
@@ -172,7 +174,7 @@ h1{
 
 
 .tittle{
-    background: -webkit-linear-gradient(blue, red);
+    background: -webkit-linear-gradient( blue, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px white; /* largura da borda e cor da borda*/
@@ -205,10 +207,9 @@ top: 110px;
 .container_about{
     position: relative;
     background-image: url(./assets/onda_fundo.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 85vh;
+    height: 95vh;
     margin: 0;
 }
 
@@ -242,40 +243,41 @@ left: 450px;
 
 }
 
+
 .avatar{
- /*width: 80%;
-   margin: 100px auto 50px;
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   grid-gap:30px*/
+    display: inline-block;
+    width: 650px;
+    height: 350px;
+    margin:auto;
+    padding-inline-start: 29rem;
+    margin-block-start: 50px;
+}
 
-  /* position: absolute;
-   justify-content: center;
-   align-items: center;
-   margin-top: 20px;
-   width: 100vw;
-   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
-   column-gap: 10px;*/
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-max-width: 480px;
-position: relative;
-top: 100px;
-left: 480px;
-padding: 10px;
+#img1{
+    margin-inline-start: 100px;
+    padding-inline-end: 5px;
+    padding-block-end: 35px;
+    padding-block-start: 15px;
+}
 
+#img2{   
+     padding-inline-end: 5px;
+    padding-block-end: 35px;
+}
+#img3{
+    padding-inline-end: 25px;
+    padding-block-end: 35px;
+}
 
+#img4{
+    margin-inline-start: 100px;
+    padding-inline-end: 5px;
+}
+
+#img5{
+    padding-inline-end: 5px;
 }
 
 
-   /* width: 150px;
-    height: 150px;
-    object-fit: cover;
-    object-position: center;
-    margin: 5px;
-    position: relative;
-    left: 50px;*/
-    
-}
+
+
